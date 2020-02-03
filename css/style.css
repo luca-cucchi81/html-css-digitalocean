@@ -11,6 +11,16 @@
       clear: both;
   }
 /* ==HEADER NAVBAR */
+navbar.navbar-default.navbar-fixed-top.text-center{
+    background-color: #ffffff;
+}
+
+@media screen and (max-width: 767px){            /*cambio colore background e bordi su mobile*/
+.navbar.navbar-default.navbar-fixed-top.text-center{
+    border: none;
+    background: transparent;
+}
+}
 
 .navbar-brand img {
     max-height:100%;
@@ -30,13 +40,36 @@ button.navbar-right.btn.btn-outline-primary{
     color: #031b4e;
 }
 
-@media screen and (max-width: 767px){
-navbar.navbar-default.navbar-fixed-toptext-center{
-    background: transparent;
-}
+/*==JUMBOTRON== */
+.jumbo{
+    padding-top: 100px;
+    background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
 }
 
-/* HEADER JUMBOTRON== */
-.container-fluid{
-    background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
+.jumbo-title h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.jumbo-title p{
+    font-size: 20px;
+    color: #ccdaff;
+}
+
+.jumbotron.col-sm-5.col-md-5{
+    padding: 20px 20px;
+}
+
+.jumbotron h4{
+    padding-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #031b4e;
+}
+
+.jumbotron p{
+    padding: 10px 0;
+    font-size: small;
+    color: #5b7bb7;
 }
