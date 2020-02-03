@@ -46,8 +46,12 @@ button.navbar-right.btn.btn-outline-primary{
     background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
 }
 
+.jumbo-title{
+    transform: translateY(10%);
+}
+
 .jumbo-title h1{
-    font-size: 50px;
+    font-size: 65px;
     font-weight: bold;
     color: #ffffff;
 }
@@ -72,4 +76,22 @@ button.navbar-right.btn.btn-outline-primary{
     padding: 10px 0;
     font-size: small;
     color: #5b7bb7;
+}
+
+.google, .github{
+    padding: 10px 30px;
+    border: 1px solid #0080ff;
+}
+.google{
+    margin-right: 20px;
+}
+.signup a{
+    text-decoration: none;
+}
+
+.signup a span{
+    padding-left: 20px;
+    color: #03369b;
+    font-size: 14px;
+    font-weight: bold;
 }
