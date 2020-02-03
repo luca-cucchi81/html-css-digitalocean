@@ -7,6 +7,11 @@
   .container{            /*padding generale dei container*/
       padding-top: 30px;
   }
+
+  ul{                        /*no stile per tutti gli ul*/
+      list-style-type: none;
+      text-decoration: none;
+  }
 /* ==HEADER NAVBAR */
 navbar.navbar-default.navbar-fixed-top.text-center{
     background-color: #ffffff;
@@ -103,7 +108,6 @@ button.navbar-right.btn.btn-outline-primary{
     padding-bottom: 10px;
 }
 .logolist{
-    list-style-type: none;
     padding: 0 60px;
 }
 .logolist li{
@@ -137,4 +141,22 @@ button.navbar-right.btn.btn-outline-primary{
 
 .third p{
     color: #596285;
+}
+
+.deploy-list{
+    padding-top: 20px;
+}
+.deploy-list li{
+    padding-top: 10px;
+    text-decoration: none;
+}
+.deploy-list a{
+    padding: 10px 5px;
+    text-decoration: none;
+}
+.deploy-list a:hover{
+    border-left: 2px solid #0069ff;
+}
+.process-list{
+    padding-top: 10px;
 }
