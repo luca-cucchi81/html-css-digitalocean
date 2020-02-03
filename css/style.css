@@ -12,21 +12,42 @@
       list-style-type: none;
       text-decoration: none;
   }
+
+ @media screen and (max-width: 767px){
+
+ .navbar.navbar-default.navbar-fixed-top.text-center{
+      border: none;
+      background: transparent;
+ }
+
+ .jumbo.container-fluid{
+      background: #0248ff;
+ }
+.deploy-list ul{
+    text-align: center;
+}
+.deploy-list li{
+      display: inline-block;
+  }
+.deploy-list a:hover{
+    border-radius: 3px;
+    border: 2px solid #0069ff;
+}
+.process-list{
+    text-align: center;
+}
+.jumbo-title h1, .jumbo-title p{
+        text-align: center;
+        padding-bottom: 20px;
+  }
+  .jumbotron{
+    margin-top: 40px;
+  }
+  }
+
 /* ==HEADER NAVBAR */
-navbar.navbar-default.navbar-fixed-top.text-center{
-    background-color: #ffffff;
-}
-
-@media screen and (max-width: 767px){            /*cambio colore background e bordi su mobile*/
 .navbar.navbar-default.navbar-fixed-top.text-center{
-    border: none;
-    background: transparent;
-}
-
-.jumbo.container-fluid{
-    background: #0248ff;
-}
-
+    background-color: #ffffff;
 }
 
 .navbar-brand img {
@@ -58,7 +79,7 @@ button.navbar-right.btn.btn-outline-primary{
 }
 
 .jumbo-title h1{
-    font-size: 65px;
+    font-size: 60px;
     font-weight: bold;
     color: #ffffff;
 }
