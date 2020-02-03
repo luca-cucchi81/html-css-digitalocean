@@ -156,6 +156,7 @@ button.navbar-right.btn.btn-outline-primary{
 }
 
 .third h2{
+    font-size: 22px;
     font-weight: bold;
     color: #031b4e;
 }
@@ -179,6 +180,17 @@ button.navbar-right.btn.btn-outline-primary{
     border-left: 2px solid #0069ff;
 }
 .process-list{
-    padding-top: 10px;
-
+    padding-top: 30px;
+}
+.process-box i{
+    color: #0069ff;
+    font-size: x-large;
+}
+.process-box h4{
+    font-size: 14px;
+    font-weight: bold;
+    color: #031b4e;
+}
+.process-box p{
+    color: #696285;
 }
