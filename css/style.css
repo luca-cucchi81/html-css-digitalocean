@@ -4,6 +4,9 @@
     box-sizing: border-box;
   }
 
+  .container{            /*padding generale dei container*/
+      padding-top: 30px;
+  }
 /* ==HEADER NAVBAR */
 navbar.navbar-default.navbar-fixed-top.text-center{
     background-color: #ffffff;
@@ -41,7 +44,7 @@ button.navbar-right.btn.btn-outline-primary{
 
 /*==JUMBOTRON== */
 .jumbo{
-    padding-top: 100px;
+    padding-top: 70px;
     background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
 }
 
@@ -96,10 +99,6 @@ button.navbar-right.btn.btn-outline-primary{
 
 /* ==PRINCIPALE== */
 
-.second{
-    padding-top: 30px;
-}
-
 .second .row{
     padding-bottom: 10px;
 }
@@ -129,4 +128,13 @@ button.navbar-right.btn.btn-outline-primary{
 .second .row a{
     font-size: 13px;
     font-weight: bold;
+}
+
+.third h2{
+    font-weight: bold;
+    color: #031b4e;
+}
+
+.third p{
+    color: #596285;
 }
