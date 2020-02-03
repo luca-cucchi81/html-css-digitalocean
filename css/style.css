@@ -4,12 +4,6 @@
     box-sizing: border-box;
   }
 
-  .container::after,
-  .full-container::after {
-      content: "";
-      display: table;
-      clear: both;
-  }
 /* ==HEADER NAVBAR */
 navbar.navbar-default.navbar-fixed-top.text-center{
     background-color: #ffffff;
@@ -20,6 +14,11 @@ navbar.navbar-default.navbar-fixed-top.text-center{
     border: none;
     background: transparent;
 }
+
+.jumbo.container-fluid{
+    background: #0248ff;
+}
+
 }
 
 .navbar-brand img {
@@ -79,12 +78,11 @@ button.navbar-right.btn.btn-outline-primary{
 }
 
 .google, .github{
+    margin-bottom: 20px;
     padding: 10px 30px;
     border: 1px solid #0080ff;
 }
-.google{
-    margin-right: 20px;
-}
+
 .signup a{
     text-decoration: none;
 }
@@ -94,4 +92,22 @@ button.navbar-right.btn.btn-outline-primary{
     color: #03369b;
     font-size: 14px;
     font-weight: bold;
+}
+
+/* ==PRINCIPALE== */
+
+.second-container{
+    padding-top: 30px;
+}
+.logolist{
+    display: table-row;
+}
+.logolist li{
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+.logolist img{
+    max-width: 100%;
 }
