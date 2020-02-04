@@ -43,6 +43,7 @@
   .jumbotron{
     margin-top: 40px;
   }
+
   }
 
 /* ==HEADER NAVBAR */
@@ -181,6 +182,7 @@ button.navbar-right.btn.btn-outline-primary{
 }
 .process-list{
     padding-top: 30px;
+    padding-bottom: 15px;
 }
 .process-box i{
     color: #0069ff;
@@ -192,5 +194,23 @@ button.navbar-right.btn.btn-outline-primary{
     color: #031b4e;
 }
 .process-box p{
+    text-align: justify;
+    font-size: small;
     color: #696285;
+}
+
+.fas.fa-chevron-left, .fas.fa-chevron-right {
+    padding: 20% 10px;
+    font-size: 30px;
+}
+
+.fourth h2{
+    font-size: 22px;
+    font-weight: bold;
+    color: #031b4e;
+}
+
+.fourth p{
+    color: #596285;
+    padding-top: 15px;
 }
