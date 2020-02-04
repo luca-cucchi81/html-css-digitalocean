@@ -131,7 +131,7 @@ button.navbar-right.btn.btn-outline-primary{
 /* ==PRINCIPALE== */
 
 section h2{
-    font-size: 23px;
+    font-size: 25px;
     font-weight: bold;
     color: #031b4e;
 }
@@ -203,7 +203,7 @@ section h2{
     color: #696285;
 }
 
-.fas.fa-chevron-left, .fas.fa-chevron-right {
+.fourth i{
     padding: 20% 10px;
     font-size: 30px;
 }
@@ -262,4 +262,37 @@ tr > td:last-of-type {
 .city{
     color: #9d999b;
     font-size: 13px;
+}
+
+/* SEZ. DEVELPOMENT */
+.develop-text p{
+    font-size: 16px;
+    color: #6c5f83;
+}
+
+.rocker{
+    padding: 20px 0;
+}
+.rocker i{
+    padding-top: 100px;
+    font-size:x-large;
+    font-weight: bold;
+}
+.rockerbox img{
+    height: 40px;
+    object-fit: contain;
+}
+.rockerbox p{
+    font-size: 20px;
+    padding: 20px 0;
+    color: #696285;
+}
+.rockerbox p:nth-last-of-type(2){
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.rockerbox p:last-of-type{
+    padding-top: 0;
+    font-size: 12px;
 }
