@@ -5,7 +5,7 @@
   }
 
   .container{            /*padding generale dei container*/
-      padding-top: 30px;
+      padding-top: 40px;
   }
 
   ul{                        /*no stile per tutti gli ul*/
@@ -126,6 +126,12 @@ button.navbar-right.btn.btn-outline-primary{
 
 /* ==PRINCIPALE== */
 
+section h2{
+    font-size: 23px;
+    font-weight: bold;
+    color: #031b4e;
+}
+
 .second .row{
     padding-bottom: 10px;
 }
@@ -156,12 +162,6 @@ button.navbar-right.btn.btn-outline-primary{
     font-weight: bold;
 }
 
-.third h2{
-    font-size: 22px;
-    font-weight: bold;
-    color: #031b4e;
-}
-
 .third p{
     color: #596285;
 }
@@ -184,7 +184,7 @@ button.navbar-right.btn.btn-outline-primary{
     padding-top: 30px;
     padding-bottom: 15px;
 }
-.process-box i{
+.process-box i, .business-box i{
     color: #0069ff;
     font-size: x-large;
 }
@@ -204,13 +204,7 @@ button.navbar-right.btn.btn-outline-primary{
     font-size: 30px;
 }
 
-.fourth h2{
-    font-size: 22px;
-    font-weight: bold;
-    color: #031b4e;
-}
-
 .fourth p{
     color: #596285;
-    padding-top: 15px;
+    padding-top: 10px;
 }
