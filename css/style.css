@@ -208,10 +208,6 @@ section h2{
     font-size: x-large;
 }
 
-.fourth.fas.fa-chevron-left{
-    padding-right: 10px;
-}
-
 .fourth p{
     color: #596285;
     padding-top: 10px;
@@ -299,4 +295,24 @@ tr > td:last-of-type {
 .rockerbox p:last-of-type{
     padding-top: 0;
     font-size: 12px;
+}
+
+/* ==SEZ. GET STARTED== */
+.started{
+    background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
+    padding: 20px 0;
+}
+.started h3{
+    padding-bottom: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.started button{
+    font-weight: bold;
+    color: #0080ff;
+}
+.started button a{
+    text-decoration: none;
 }
