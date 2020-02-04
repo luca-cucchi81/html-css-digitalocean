@@ -13,21 +13,21 @@
       text-decoration: none;
   }
 
- @media screen and (max-width: 767px){
 
+@media screen and (max-width: 767px){
  .navbar.navbar-default.navbar-fixed-top.text-center{
       border: none;
       background: transparent;
  }
 
  .jumbo.container-fluid{
-      background: #0248ff;
+    background: #0248ff;
  }
 .deploy-list ul{
     text-align: center;
 }
 .deploy-list li{
-      display: inline-block;
+    display: inline-block;
   }
 .deploy-list a:hover{
     border-radius: 3px;
@@ -37,19 +37,18 @@
     text-align: center;
 }
 .jumbo-title h1, .jumbo-title p{
-        text-align: center;
-        padding-bottom: 20px;
+    text-align: center;
+    padding-bottom: 20px;
   }
-  .jumbotron{
+.jumbotron{
     margin-top: 40px;
   }
 
-  .business-box{
-      text-align: center;
-      padding-top: 20px;
+.business-box{
+    text-align: center;
+    padding-top: 20px;
   }
-
-  }
+ }
 
 /* ==HEADER NAVBAR */
 .navbar.navbar-default.navbar-fixed-top.text-center{
@@ -193,7 +192,7 @@ section h2{
     color: #0069ff;
     font-size: x-large;
 }
-.process-box h4{
+.process-box h4, .business-box h4{
     font-size: 14px;
     font-weight: bold;
     color: #031b4e;
@@ -212,4 +211,55 @@ section h2{
 .fourth p{
     color: #596285;
     padding-top: 10px;
+}
+
+.fifth{
+    padding-bottom: 20px;
+}
+.fifth h2{
+    padding-bottom: 20px;
+}
+
+/* ==SEZ. WORLD== */
+.world{
+    background-image: url("https://i.ytimg.com/vi/EBkbV1SIJtI/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.world h3{
+    font-size: 35px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.tabella{
+    padding: 40px 0;
+}
+.table tr:first-child td {
+    border-top: none;
+}
+
+.table a {
+    color: #00d7c2;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+}
+.table a:hover{
+    color:#005fe6;
+}
+
+tr > td:first-of-type {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+tr > td:last-of-type {
+    text-align: right;
+}
+
+.city{
+    color: #9d999b;
+    font-size: 13px;
 }
