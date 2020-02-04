@@ -204,8 +204,12 @@ section h2{
 }
 
 .fourth i{
-    padding: 20% 10px;
-    font-size: 30px;
+    padding: 20%;
+    font-size: x-large;
+}
+
+.fourth.fas.fa-chevron-left{
+    padding-right: 10px;
 }
 
 .fourth p{
