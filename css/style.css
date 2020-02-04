@@ -48,6 +48,10 @@
     text-align: center;
     padding-top: 20px;
   }
+
+ .d-flex ul{
+     padding-right: 100px;
+ }
  }
 
 /* ==HEADER NAVBAR */
@@ -300,6 +304,7 @@ tr > td:last-of-type {
 /* ==SEZ. GET STARTED== */
 .started{
     background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
+    margin-top: 20px;
     padding: 20px 0;
 }
 .started h3{
@@ -315,4 +320,49 @@ tr > td:last-of-type {
 }
 .started button a{
     text-decoration: none;
+}
+
+/* ==FOOTER== */
+.footer{
+    background-color: #010e28;
+}
+.footer dt{
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+.footer dd{
+    line-height: 2;
+    font-size: small;
+}
+
+.footer dd a{
+    text-decoration: none;
+    color: #708686;
+}
+
+.footer dd a:hover{
+    color: #ffffff;
+}
+
+.footer img{
+    height: 50px;
+}
+
+.copyright{
+    border-top: 1px solid #343e53;
+    padding-bottom: 20px;
+}
+
+.d-flex{
+    padding-top: 20px;
+}
+.d-flex ul{
+    line-height: 50px;
+}
+.d-flex li a{
+    color: #808794;
+    font-size: 20px;
+}
+.d-flex li a:hover{
+    color:#ffffff;
 }
